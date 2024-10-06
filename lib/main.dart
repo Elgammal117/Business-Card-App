@@ -40,7 +40,7 @@ class SHA extends StatelessWidget {
                 const Text(
                     style: TextStyle(color: Color.fromARGB(255, 99, 99, 99)),
                     "FLUTTER DEVELOPER"),
-                Divider(
+                const Divider(
                   color: Color.fromARGB(255, 99, 99, 99),
                   thickness: 2,
                   indent: 50,
@@ -52,10 +52,10 @@ class SHA extends StatelessWidget {
                         borderRadius: BorderRadius.all(Radius.circular(10))),
                     width: 350,
                     height: 60,
-                    child: Row(
+                    child: const Row(
                       children: [
                         Padding(
-                          padding: const EdgeInsets.all(8.0),
+                          padding: EdgeInsets.all(8.0),
                           child: Icon(
                             color: Color.fromARGB(225, 39, 68, 96),
                             Icons.phone,
@@ -63,8 +63,8 @@ class SHA extends StatelessWidget {
                           ),
                         ),
                         Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: const Text(
+                          padding: EdgeInsets.all(8.0),
+                          child: Text(
                               style: TextStyle(
                                   fontSize: 16,
                                   color: Color.fromARGB(255, 0, 0, 0)),
@@ -80,10 +80,10 @@ class SHA extends StatelessWidget {
                           borderRadius: BorderRadius.all(Radius.circular(10))),
                       width: 350,
                       height: 60,
-                      child: Row(
+                      child: const Row(
                         children: [
                           Padding(
-                            padding: const EdgeInsets.all(8.0),
+                            padding: EdgeInsets.all(8.0),
                             child: Icon(
                               color: Color.fromARGB(225, 39, 68, 96),
                               Icons.mail,
@@ -91,8 +91,8 @@ class SHA extends StatelessWidget {
                             ),
                           ),
                           Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: const Text(
+                            padding: EdgeInsets.all(8.0),
+                            child: Text(
                                 style: TextStyle(
                                     fontSize: 16,
                                     color: Color.fromARGB(255, 0, 0, 0)),
